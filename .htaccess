@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^membership/?$ /login.php [L]
+RewriteRule ^logout/?$ /logout.php [L]
+
+RewriteRule ^videos/?$ /videos.php [L]
+RewriteRule ^videos/(.*)?$ /videos.php?type=$1 [L]
+
+RewriteRule ^video/(.*)?$ /video-view.php?video_id=$1 [L]
+RewriteRule ^playlist/(.*)?$ /video-view.php?playlist=$1 [L]
+
+
+RewriteRule ^categories/?$ /categories.php [L]
+
+RewriteRule ^user/(.*)?$ /user.php?user_id=$1 [L]
+
+RewriteRule ^search/?$ /search.php [L]
