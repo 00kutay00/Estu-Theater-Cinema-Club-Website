@@ -1,0 +1,18 @@
+header {
+    background-color: #8C373E;
+}
+
+header > div {
+    color: #fff;
+    text-align: center;
+}
+
+/*
+header .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+header .swiper-slide img {
+    height: 500px;
+}
+*/

@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^example/?$ /example.php [L]
+RewriteRule ^examples/(.*)?$ /example.php?type=$1 [L]
